@@ -1,0 +1,10 @@
+insert into productos values
+(NULL, 'Audifonos WHITE GG', 'Audifonos gaming con sonido envolvente 7.1', 'assets/Audifonos/A1.png', 'Audifonos', 1350.00, 43),
+(NULL, 'Audifonos black mirror', 'Audifonos con almohadillas suaves y minimalistas', 'assets/Audifonos/A2.png', 'Audifonos', 1600.00, 54),
+(NULL, 'Audifonos Dragon Fire GG', 'Audifonos con microfono integrado y supresion temporal de ruido', 'assets/Audifonos/A3.png', 'Audifonos', 1970.12, 54),
+(NULL, 'Audífonos SuperBass', 'Audífonos con graves potentes y diseño elegante', 'assets/Audifonos/A4.png', 'Audifonos', 1299.99, 32), 
+(NULL, 'Audífonos Stealth 360', 'Audífonos inalámbricos con tecnología Bluetooth', 'assets/Audifonos/A5.png', 'Audifonos', 1750.50, 42), 
+(NULL, 'Audífonos Fury Blade', 'Audífonos con iluminación LED y control de volumen táctil', 'assets/Audifonos/A6.png', 'Audifonos', 1899.00, 39),
+(NULL, 'Audífonos Noise Cancelling Pro', 'Audífonos con cancelación de ruido activa y batería de larga duración', 'assets/Audifonos/A7.png', 'Audifonos', 2499.99, 28), 
+(NULL, 'Audífonos Elite 900X', 'Audífonos con calidad de sonido premium y micrófono desmontable', 'assets/Audifonos/A8.png', 'Audifonos', 2199.00, 47), 
+(NULL, 'Audífonos Neon Beat', 'Audífonos con colores vibrantes y almohadillas ergonómicas', 'assets/Audifonos/A9.png', 'Audifonos', 1599.50, 56), (NULL, 'Audífonos Pro X', 'Audífonos para gaming con sonido envolvente 3D y micrófono retráctil', 'assets/Audifonos/A10.png', 'Audifonos', 2899.99, 33);

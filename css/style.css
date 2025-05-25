@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'FuenteGecko';
+    src: url('../assets/fuente.ttf') format('truetype');
+}
+
+
+:root {
+    --fuentePrincipal: 'FuenteGecko', "Nerko One", cursive;
+    --colorPrincipal: rgb(51, 255, 0);
+}
+
+body {
+    background-color: #000;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+
+.titulo {
+    font-family: var(--fuentePrincipal);
+    color: var(--colorPrincipal);
+}
+
+.carousel-item img {
+    width: 100%;
+    /* Mantenemos el ancho al 100% del contenedor */
+    height: auto;
+    /* Mantenemos la proporción de aspecto */
+    max-width: 1000px;
+    /* Establecemos un ancho máximo */
+    max-height: 1000px;
+    /* Establecemos una altura máxima */
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #000000;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right bottom, rgb(0, 0, 0), rgb(0, 0, 0));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right bottom, rgb(0, 0, 0), rgb(0, 0, 0))
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0))
+}

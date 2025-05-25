@@ -1,0 +1,12 @@
+insert into productos values
+(NULL, 'Gabinete Astro Galaxy GG', 'Gabinete con alta entrada de aire, organizacion de cables y RGB', 'assets/Gabinetes/G1.png', 'Gabinetes', 1820.00, 16), 
+(NULL, 'Gabinete Titan X', 'Gabinete de tamaño completo con soporte para refrigeración líquida', 'assets/Gabinetes/G2.png', 'Gabinetes', 2250.00, 23),
+(NULL, 'Gabinete Phantom Strike', 'Gabinete con diseño agresivo y panel lateral transparente', 'assets/Gabinetes/G3.png', 'Gabinetes', 1980.00, 19),
+(NULL, 'Gabinete Fortress Prime', 'Gabinete compacto con sistema de gestión de cables ocultos', 'assets/Gabinetes/G4.png', 'Gabinetes', 1560.50, 27),
+(NULL, 'Gabinete Thunderstorm Pro', 'Gabinete de alto rendimiento con espacio para hasta 6 ventiladores', 'assets/Gabinetes/G5.png', 'Gabinetes', 2899.99, 14),
+(NULL, 'Gabinete Eclipse Elite', 'Gabinete con paneles laterales de vidrio templado y RGB direccionable', 'assets/Gabinetes/G6.png', 'Gabinetes', 2499.00, 18),
+(NULL, 'Gabinete Nova Crystal', 'Gabinete con iluminación LED RGB y soporte para tarjetas gráficas largas', 'assets/Gabinetes/G7.png', 'Gabinetes', 1799.00, 22),
+(NULL, 'Gabinete X-Firestorm', 'Gabinete con diseño aerodinámico y compartimentos modulares', 'assets/Gabinetes/G8.png', 'Gabinetes', 2120.00, 20),
+(NULL, 'Gabinete Horizon Blitz', 'Gabinete de torre media con múltiples puntos de montaje para unidades', 'assets/Gabinetes/G9.png', 'Gabinetes', 1690.50, 25),
+(NULL, 'Gabinete Phoenix Fury', 'Gabinete de alta resistencia con construcción de acero de grado industrial', 'assets/Gabinetes/G10.png', 'Gabinetes', 3250.00, 17);
+

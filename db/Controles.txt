@@ -1,0 +1,11 @@
+insert into productos values
+(NULL, 'Control GGC-Armor', 'Control gaming con botones mecanicos, modo turbo y programación de macros', 'assets/Controles/C1.png', 'control', 899.00, 54),
+(NULL, 'Control GGC-Dark Sepia', 'Control gaming inalambrico compatible con Xbox, dongle usb C y bateria de 600 mah', 'assets/Controles/C2.png', 'control', 599.00, 54),
+(NULL, 'Control GGC-Essential', 'Control gaming inalambrico compatible con PC, Nintendo Switch, PS3 y Android con botones inferiores extra y para macros', 'assets/Controles/C3.png', 'control', 899.00, 54),
+(NULL, 'Control GGC-Thunder', 'Control gaming inalambrico compatible con todas las plataformas, botones mecanicos y con triple conexión, alambrica, dongle USB C y BT', 'assets/Controles/C4.png', 'control', 1499.00, 54),
+(NULL, 'Control GGC-Thunder Hit', 'Control gaming inalambrico comptabile con Xbox y Android', 'assets/Controles/C5.png', 'control', 499.00, 54),
+(NULL, 'Control GGC-X66', 'Control gaming multiplataforma con joysticks de alta presición y gatillos responsivos', 'assets/Controles/C6.png', 'control', 1899.00, 54),
+(NULL, 'Control GGC-XB', 'Control gaming alambrico comptatible con Xboz 360, One, Series S y PC', 'assets/Controles/C7.png', 'control', 1199.00, 54),
+(NULL, 'Control GGC-Primal', 'Control gaming con botones mecanicos, gatillos adaptativos y triple conexión junto con botones mecánicos', 'assets/Controles/C8.png', 'control', 2199.00, 54),
+(NULL, 'Control GGC-Tarvos', 'Control gaming compatible con Android y PC junto con conexión BT y botones extra en la parte inferior', 'assets/Controles/C9.png', 'control', 799.00, 54),
+(NULL, 'Control GGC-PS', 'Control gaming compatible con PS3 yPS4 ', 'assets/Controles/C10.png', 'control', 899.00, 54);

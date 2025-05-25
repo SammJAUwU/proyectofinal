@@ -1,0 +1,26 @@
+create table factura (
+    id_pedido integer not null AUTO_INCREMENT,
+    id_usuario integer not null,
+    foreign key (id_usuario) references usuarios (id),
+    domiclio varchar (100) not null,
+    iva decimal(8,2) not null,
+    total decimal(8,2) not null,
+    fecha date not null,
+    ruta_factura varchar (100),
+    nombre_cliente varchar (100),
+    primary key (id_pedido, id_usuario)
+) engine = innodb;
+
+create table pedidos (
+    id_pedido integer not null,
+    id_usuario integer not null,
+    id_producto integer not null,
+    foreign key (id_pedido) references factura (id_pedido),
+    foreign key (id_usuario) references usuarios (id),
+    foreign key (id_producto) references productos (id_producto),
+    primary key (id_pedido, id_usuario, id_producto),
+    precio_producto decimal(8,2) not null,
+    cantidad int not null,
+    total_producto decimal(12,2) not null,
+    orden_compra int not null
+) engine = innodb;

@@ -1,0 +1,13 @@
+INSERT INTO productos VALUES (null, 'GeckoGrip Pro','Mouse gaming profesional con sensor óptico de alta precisión', 'assets/Mouse/M1.png', 'mouse', '749.00', '17'),
+(null, 'VenomTail','Mouse gaming de alta gama con ajuste de peso y botones programables', 'assets/Mouse/M2.png', 'mouse', '1199.00', '21'),
+(null, 'StealthFang','Mouse gaming silencioso con tecnología de reducción de ruido', 'assets/Mouse/M3.png', 'mouse', '999.00', '27'),
+(null, 'PulseStrike','Mouse gaming de perfil bajo con tecnología inalámbrica de baja latencia', 'assets/Mouse/M4.png', 'mouse', '699.00', '12'),
+(null, 'FrostBite','Mouse gaming robusto con interruptores mecánicos y macros programables', 'assets/Mouse/M5.png', 'mouse', '1299.00', '19'),
+(null, 'BlazeGlide','Mouse gaming ergonómico con luces RGB', 'assets/Mouse/M6.png', 'mouse', '1049.00', '31'),
+(null, 'EmberClaw','Mouse gaming con diseño ergonómico y acabado antideslizante', 'assets/Mouse/M7.png', 'mouse', '999.00', '18'),
+(null, 'GeckoFury','Mouse gaming con iluminación LED y cable trenzado para mayor durabilidad', 'assets/Mouse/M8.png', 'mouse', '1399.00', '11'),
+(null, 'ShadowSprint','Mouse gaming con acabado brillante y deslizadores de teflón para movimientos suaves', 'assets/Mouse/M9.png', 'mouse', '1199.00', '20'),
+(null, 'InfernoGrip','Mouse gaming con sensor de alta velocidad y 12 botones laterales programables', 'assets/Mouse/M10.png', 'mouse', '2099.00', '17');
+
+UPDATE productos SET nombre_producto = CONCAT('Mouse ', nombre_producto) WHERE categoria = 'mouse';
+

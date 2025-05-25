@@ -1,0 +1,11 @@
+create table carrito (
+    id_compra integer not null AUTO_INCREMENT,
+    id_usuario integer not null,
+    id_producto integer not null,
+    foreign key (id_usuario) references usuarios (id),
+    foreign key (id_producto) references productos (id_producto),
+    primary key (id_compra, id_usuario, id_producto),
+    precio_producto decimal(8,2) not null,
+    cantidad int not null,
+    total_producto decimal(12,2) not null
+) engine = innodb;

@@ -1,0 +1,11 @@
+insert into productos values
+(NULL, 'Teclado GGK-Chaos B', 'Teclado gaming RGB, en color negro con formato 60% con switches RED ', 'assets/Teclados/T1.png', 'teclado', 1399.00, 54),
+(NULL, 'Teclado GGK-Chaos W', 'Teclado gaming RGB, en color blanco con formato 60% con switches BLUE', 'assets/Teclados/T2.png', 'teclado', 1399.00, 54),
+(NULL, 'Teclado GGK-Deimos W', 'Teclado gaming RGB, en color blanco con formato 100% con switches BROWN', 'assets/Teclados/T3.png', 'teclado', 1599.00, 54),
+(NULL, 'Teclado GGK-Deimos B', 'Teclado gaming RGB, en color negro con formato 100% con switches BLUE', 'assets/Teclados/T4.png', 'teclado', 1599.00, 54),
+(NULL, 'Teclado GGK-Defender', 'Teclado gaming RGB de formato TKL con reposamuñecas de plástico, controles multimedia y switches GREEN', 'assets/Teclados/T5.png', 'teclado', 1899.00, 54),
+(NULL, 'Teclado GGK-Sumoner', 'Teclado gaming RGB de fomrato 100% con reposamuñecas de vinipiel relleno de memory foam, switches RED', 'assets/Teclados/T6.png', 'teclado', 2399.00, 54),
+(NULL, 'Teclado GGK-Artis TKL', 'Teclado gaming RGB con cable desmontables y switches ópticos con botones dedicados para realizar macros o asignaciones personalizadas', 'assets/Teclados/T7.png', 'teclado', 1699.00, 54),
+(NULL, 'Teclado GGK-Asmodeo', 'Teclado gaming RGB de fomrato 100% con reposamuñecas de vinipiel relleno de memory foam, switches ópticos y controles multimedia, switches BROWN', 'assets/Teclados/T8.png', 'teclado', 2799.00, 54),
+(NULL, 'Teclado GGK-Gecko Born', 'Teclado gaming RGB en formato TKL, inamalmbricos, con controles múltimedia y botones para macros o nuevas asignaciones, switches BLUE', 'assets/Teclados/T9.png', 'teclado', 2099.00, 54),
+(NULL, 'Teclado GGK-Hydra', 'Teclado gaming RGB con switches RED mecanicos en formato 100%, switches GREEN', 'assets/Teclados/T10.png', 'teclado', 1199.00, 54);
